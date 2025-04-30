@@ -42,6 +42,7 @@ basic-3.12:
     - python -m pip install .[test]
     - *list-env
     - pytest --cov-config=.coveragerc --junitxml=test-results.xml --cov=package_name --cov-report=xml --cov-report=html
+    - ls -la .coverage*
   artifacts:
     when: always
     paths:
