@@ -61,15 +61,11 @@ git push
     - [ ] "Release Notes"
   - [ ] [tool.flit.module]
     - [ ] name
+- [ ] Update <package_name> in [.gitlab-ci.yml](.gitlab-ci.yml)
 - [ ] Update [CONTRIBUTING.md](CONTRIBUTING.md)
 - [ ] Update [LICENSE](LICENSE)
 - [ ] Update [SECURITY.md](SECURITY.md)
-- [ ] Set up `Discussions` for community support. Quickstart: https://docs.github.com/en/discussions/quickstart
 - [ ] Update [SUPPORT.md](SUPPORT.md)
-- [ ] When ready to publish the package to PyPI:
-  - [ ] Add API tokens for PyPI and Test PyPI to GitHub Action secrets.
-- [ ] When ready to publish documentation to GitHub Pages:
-  - [ ] Go to Settings → Pages and set the Source under Build and deployment to GitHub Actions.
 
 ## Project Organization
 
