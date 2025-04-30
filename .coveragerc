@@ -1,7 +1,7 @@
 [run]
 branch = True
-parallel = True  # Save as .coverage.* files per job
-source = src/package_name  # Replace with your actual package
+parallel = True
+source = src/package_name
 
 [report]
 omit =
