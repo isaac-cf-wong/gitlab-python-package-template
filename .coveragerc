@@ -1,0 +1,13 @@
+[run]
+branch = True
+parallel = True  # Save as .coverage.* files per job
+source = src/package_name  # Replace with your actual package
+
+[report]
+omit =
+    */tests/*
+    */site-packages/*
+
+[paths]
+source =
+    src/package_name

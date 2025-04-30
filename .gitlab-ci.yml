@@ -50,6 +50,7 @@ basic-3.12:
   artifacts:
     when: always
     paths:
+      - .coverage.*
       - test-results.xml
       - htmlcov/
       - coverage.xml
