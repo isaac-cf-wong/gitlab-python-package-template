@@ -36,10 +36,23 @@ repos:
         args: [--config=pyproject.toml]
         stages: [manual]
 
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.1.0
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v9.1.1 # Keep this version or update to the latest stable
     hooks:
-      - id: codespell
+      - id: cspell
+        name: Check spelling in Markdown and TeX files
+        args: ["--config", ".vscode/cspell.json"]
+        files: '\.(md|tex)$'
+      - id: cspell
+        name: check commit message spelling
+        args:
+          - --no-must-find-files
+          - --no-progress
+          - --no-summary
+          - --files
+          - .git/COMMIT_EDITMSG # This is the key: cspell checks the commit message file
+        stages: [commit-msg] # Specify that this hook runs during the commit-msg stage
+        always_run: true # Ensures it always runs, even if no files changed
 
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.9.0
@@ -58,3 +71,10 @@ repos:
     hooks:
       - id: check-manifest
         stages: [manual]
+
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0 # Use the latest stable version
+    hooks:
+      - id: detect-secrets
+        name: Detect secrets within the codebase
+        description: Detect and block secrets from committing to the codebase
