@@ -1,3 +1,5 @@
+"""Hello World Module."""
+
 from __future__ import annotations
 
 
@@ -14,5 +16,6 @@ def good_night() -> str:
 
 
 def hello_goodbye():
+    """Hello and Goodbye Function."""
     hello_world(1)
     good_night()
