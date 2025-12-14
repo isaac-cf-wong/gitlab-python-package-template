@@ -29,8 +29,8 @@ Whether you’re fixing a typo, reporting a bug, suggesting a feature, or submit
 Remove the comment when this is done.
 -->
 
-- Have a question, bug report, or feature suggestion? [Open an issue](https://github.com/username/package_name/issues/new/choose) and describe your idea clearly.
-- Check for existing issues before opening a new one.
+-   Have a question, bug report, or feature suggestion? [Open an issue](https://github.com/username/package_name/issues/new/choose) and describe your idea clearly.
+-   Check for existing issues before opening a new one.
 
 2. Fork and Clone the Repository
 
@@ -73,9 +73,9 @@ Give it a meaningful name like fix-typo-in-docs or feature-add-summary-option.
 
 6. Make Changes
 
-- Write clear, concise, and well-documented code.
-- Follow [PEP 8](https://pep8.org/) style conventions.
-- Add or update unit tests when applicable.
+-   Write clear, concise, and well-documented code.
+-   Follow [PEP 8](https://pep8.org/) style conventions.
+-   Add or update unit tests when applicable.
 
 7. Run Tests
 
@@ -92,10 +92,10 @@ The pull request titles should match the [Conventional Commits spec](https://www
 
 ## 💡 Tips
 
-- Be kind and constructive in your communication.
-- Keep PRs focused and atomic—smaller changes are easier to review.
-- Document new features and update existing docs if needed.
-- Tag your PR with relevant labels if you can.
+-   Be kind and constructive in your communication.
+-   Keep PRs focused and atomic—smaller changes are easier to review.
+-   Document new features and update existing docs if needed.
+-   Tag your PR with relevant labels if you can.
 
 ## 📜 Licensing
 

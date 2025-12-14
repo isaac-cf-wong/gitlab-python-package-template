@@ -41,10 +41,10 @@ Remove the comment when this is done.
 
 Include as much information as possible to help us understand and reproduce the issue quickly and accurately:
 
-- Description of the vulnerability
-- Steps to reproduce
-- Affected versions
-- Your operating system and Python version
+-   Description of the vulnerability
+-   Steps to reproduce
+-   Affected versions
+-   Your operating system and Python version
 
 <!--
 Make sure the `3-5 business days` is a reasonable timeline to promise.

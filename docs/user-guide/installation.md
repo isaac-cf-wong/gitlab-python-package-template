@@ -4,14 +4,14 @@ We recommend using `uv` to manage virtual environments for installing package_na
 
 If you don't have `uv` installed, you can install it with pip. See the project pages for more details:
 
-- Install via pip: `pip install --upgrade pip && pip install uv`
-- Project pages: [uv on PyPI](https://pypi.org/project/uv/) | [uv on GitHub](https://github.com/astral-sh/uv)
-- Full documentation and usage guide: [uv docs](https://docs.astral.sh/uv/)
+-   Install via pip: `pip install --upgrade pip && pip install uv`
+-   Project pages: [uv on PyPI](https://pypi.org/project/uv/) | [uv on GitHub](https://github.com/astral-sh/uv)
+-   Full documentation and usage guide: [uv docs](https://docs.astral.sh/uv/)
 
 ## Requirements
 
-- Python 3.10 or higher
-- Operating System: Linux, macOS, or Windows
+-   Python 3.10 or higher
+-   Operating System: Linux, macOS, or Windows
 
 <!-- prettier-ignore -->
 !!!note
@@ -94,6 +94,6 @@ python -c "import package_name; print(package_name.__version__)"
 1. Check the [troubleshooting guide](../dev/troubleshooting.md)
 2. Search existing [issues](https://gitlab.com/group_name/package_name/-/issues)
 3. Create a new issue with:
-   - Your operating system and Python version
-   - Full error message
-   - Steps to reproduce the problem
+    - Your operating system and Python version
+    - Full error message
+    - Steps to reproduce the problem
