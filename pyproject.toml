@@ -21,7 +21,6 @@ requires-python = ">=3.8.1"
 dynamic = ["version"]
 
 [project.optional-dependencies]
-spark = ["pyspark>=3.0.0"]
 test = [
     "bandit[toml]==1.8.2",
     "black==25.1.0",
@@ -42,6 +41,14 @@ test = [
     "shellcheck-py==0.10.0.1",
 ]
 dev = ["pytest", "pre-commit", "black", "flake8"]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings[python]",
+    "mkdocs-gen-files",
+    "mkdocs-literate-nav",
+    "mkdocs-section-index",
+]
 
 [project.urls]
 Documentation = "https://gitlab.kuleuven.be/gwc/software/python-package-template/-/tree/main#readme"
