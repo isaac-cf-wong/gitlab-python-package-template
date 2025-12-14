@@ -18,6 +18,8 @@ getrecursionlimit
 inlinevar
 isort
 metaclass
+modifyitems
+nodeid
 noqa
 nssm
 numpy
