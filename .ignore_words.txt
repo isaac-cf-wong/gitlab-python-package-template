@@ -44,3 +44,4 @@ testpaths
 tkinter
 venv
 xunit
+Zenodo
