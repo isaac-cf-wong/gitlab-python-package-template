@@ -25,8 +25,8 @@ Remove the comment when this is done.
 
 If you're experiencing a problem or have a question about how to use `package name`, please open a [GitHub Discussion](https://github.com/username/package_name/discussions) or [Issue](https://github.com/username/package_name/issues), depending on the nature of your question.
 
-- Use **Discussions** for general questions, ideas, or usage help.
-- Use **Issues** for reporting bugs or requesting new features.
+-   Use **Discussions** for general questions, ideas, or usage help.
+-   Use **Issues** for reporting bugs or requesting new features.
 
 ## 🐛 Found a Bug?
 
@@ -46,10 +46,10 @@ Update `package_name` to the name of the package.
 Remove the comment when this is done.
 -->
 
-- A clear and descriptive title.
-- Steps to reproduce the problem.
-- Relevant logs or error messages.
-- The version of Python and `package_name` you're using.
+-   A clear and descriptive title.
+-   Steps to reproduce the problem.
+-   Relevant logs or error messages.
+-   The version of Python and `package_name` you're using.
 
 ## 🙋 Want to Contribute?
 

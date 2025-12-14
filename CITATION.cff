@@ -5,11 +5,11 @@ type: software
 abstract: 'An example CITATION.cff file for a GitLab template repository for a Python package.'
 message: 'This is only for demonstration purposes.'
 authors:
-  - given-names: Isaac C. F.
-    family-names: Wong
-    affiliation: KU Leuven
-    orcid: 'https://orcid.org/0000-0003-2166-0027'
+    - given-names: Isaac C. F.
+      family-names: Wong
+      affiliation: KU Leuven
+      orcid: 'https://orcid.org/0000-0003-2166-0027'
 keywords:
-  - python
-  - gitlab
-  - template
+    - python
+    - gitlab
+    - template

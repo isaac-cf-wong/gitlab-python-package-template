@@ -56,37 +56,37 @@ git push
 
 ## Checklist
 
-- [ ] Update the following entries in [pyproject.toml](pyproject.toml):
-  - [ ] [project]
-    - [ ] authors
-    - [ ] description
-  - [ ] [project.urls]
-    - [ ] Documentation
-    - [ ] Issues
-    - [ ] Tracker
-    - [ ] Home
-    - [ ] "Release Notes"
-  - [ ] [tool.flit.module]
-    - [ ] name
-- [ ] Update <package_name> in [.gitlab-ci.yml](.gitlab-ci.yml)
-- [ ] Update [CONTRIBUTING.md](CONTRIBUTING.md)
-- [ ] Update [LICENSE](LICENSE)
-- [ ] Update [SECURITY.md](SECURITY.md)
-- [ ] Update [SUPPORT.md](SUPPORT.md)
+-   [ ] Update the following entries in [pyproject.toml](pyproject.toml):
+    -   [ ] [project]
+        -   [ ] authors
+        -   [ ] description
+    -   [ ] [project.urls]
+        -   [ ] Documentation
+        -   [ ] Issues
+        -   [ ] Tracker
+        -   [ ] Home
+        -   [ ] "Release Notes"
+    -   [ ] [tool.flit.module]
+        -   [ ] name
+-   [ ] Update <package_name> in [.gitlab-ci.yml](.gitlab-ci.yml)
+-   [ ] Update [CONTRIBUTING.md](CONTRIBUTING.md)
+-   [ ] Update [LICENSE](LICENSE)
+-   [ ] Update [SECURITY.md](SECURITY.md)
+-   [ ] Update [SUPPORT.md](SUPPORT.md)
 
 ## Project Organization
 
-- `.gitlab-ci.yml`: GitLab CI pipelines for building, testing, and publishing.
-- `.pre-commit-config.yaml`: Pre-commit hooks configuration.
-- `cliff.toml`: Configuration for generating changelogs.
-- `commitlint.config.js`: Configuration for commit message linting.
-- `cspell.json`: Configuration for spell checking.
-- `mkdocs.yml`: Configuration for MkDocs documentation.
-- `package.json`: Node.js dependencies for development tools.
-- `pyproject.toml`: Python project metadata and tool configurations.
-- `docs/`: Documentation source files.
-- `src/`: Source code directory.
-- `tests/`: Test cases.
+-   `.gitlab-ci.yml`: GitLab CI pipelines for building, testing, and publishing.
+-   `.pre-commit-config.yaml`: Pre-commit hooks configuration.
+-   `cliff.toml`: Configuration for generating changelogs.
+-   `commitlint.config.js`: Configuration for commit message linting.
+-   `cspell.json`: Configuration for spell checking.
+-   `mkdocs.yml`: Configuration for MkDocs documentation.
+-   `package.json`: Node.js dependencies for development tools.
+-   `pyproject.toml`: Python project metadata and tool configurations.
+-   `docs/`: Documentation source files.
+-   `src/`: Source code directory.
+-   `tests/`: Test cases.
 
 ## Getting Started
 

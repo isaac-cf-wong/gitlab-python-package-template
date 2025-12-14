@@ -26,10 +26,10 @@
 
 <!-- Provide details about your environment -->
 
-- Operating System: <!-- e.g., macOS, Windows, Linux -->
-- Python Version: <!-- e.g., 3.8, 3.9 -->
-- Package Version: <!-- e.g., 1.0.0 -->
-- Other relevant details: <!-- e.g., dependencies, configuration -->
+-   Operating System: <!-- e.g., macOS, Windows, Linux -->
+-   Python Version: <!-- e.g., 3.8, 3.9 -->
+-   Package Version: <!-- e.g., 1.0.0 -->
+-   Other relevant details: <!-- e.g., dependencies, configuration -->
 
 ## Additional Information
 
@@ -39,9 +39,9 @@
 
 <!-- Check off the following items before submitting -->
 
-- [ ] I have searched for similar issues and confirmed this is not a duplicate
-- [ ] I have provided all necessary information to reproduce the issue
-- [ ] I have included relevant environment details
-- [ ] I have attached any relevant files or screenshots
+-   [ ] I have searched for similar issues and confirmed this is not a duplicate
+-   [ ] I have provided all necessary information to reproduce the issue
+-   [ ] I have included relevant environment details
+-   [ ] I have attached any relevant files or screenshots
 
 <!-- Assign labels, milestones, or assignees as appropriate -->
