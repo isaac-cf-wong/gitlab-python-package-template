@@ -18,6 +18,7 @@ getrecursionlimit
 inlinevar
 isort
 metaclass
+mkdocstrings
 modifyitems
 nodeid
 noqa
@@ -42,6 +43,7 @@ rcfile
 scipy
 setrecursionlimit
 shellcheck
+subpackages
 testpaths
 tkinter
 venv
