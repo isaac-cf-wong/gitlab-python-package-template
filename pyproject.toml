@@ -19,6 +19,9 @@ classifiers = [
 ]
 requires-python = ">=3.8.1"
 dynamic = ["version"]
+dependencies = [
+    "typer",
+]
 
 [project.optional-dependencies]
 test = [
@@ -50,12 +53,15 @@ docs = [
     "mkdocs-section-index",
 ]
 
+[project.scripts]
+package_name = "package_name.cli.main:app"
+
 [project.urls]
-Documentation = "https://gitlab.kuleuven.be/gwc/software/python-package-template/-/tree/main#readme"
-Source = "https://gitlab.kuleuven.be/gwc/software/python-package-template"
-Tracker = "https://gitlab.kuleuven.be/gwc/software/python-package-template/issues"
-Home = "https://gitlab.kuleuven.be/gwc/software/python-package-template"
-"Release Notes" = "https://gitlab.kuleuven.be/gwc/software/python-package-template/-/releases"
+Documentation = "https://project_slug.readthedocs.io/en/latest/"
+Source = "https://gitlab.com/group_name/package_name"
+Tracker = "https://gitlab.com/group_name/package_name/issues"
+Home = "https://gitlab.com/group_name/package_name"
+"Release Notes" = "https://gitlab.com/group_name/package_name/-/releases"
 
 [tool.hatch.version]
 source = "vcs"
