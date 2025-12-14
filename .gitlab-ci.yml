@@ -53,8 +53,8 @@ pre-commit:
     - python -m pip install --upgrade pip setuptools wheel
     - python -m pip install -e .[test]
   script:
-    - python -c "import python_package; print('python_package version:', python_package.__version__)"
-    - python_package --help
+    - python -c "import package_name; print('package_name version:', package_name.__version__)"
+    - package_name --help
     - export COVERAGE_FILE=.coverage.$CI_JOB_NAME
     - pytest
   artifacts:
