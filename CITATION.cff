@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: 'A GitLab template repository for a Python package'
+license: 'MIT'
+type: software
+abstract: 'An example CITATION.cff file for a GitLab template repository for a Python package.'
+message: 'This is only for demonstration purposes.'
+authors:
+  - given-names: Isaac C. F.
+    family-names: Wong
+    affiliation: KU Leuven
+    orcid: 'https://orcid.org/0000-0003-2166-0027'
+keywords:
+  - python
+  - gitlab
+  - template

@@ -4,6 +4,7 @@ analyse
 asdict
 autoupdate
 Cabe
+cff
 ciso
 classmethod
 conftest
